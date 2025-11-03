@@ -1,0 +1,10 @@
+Resultados de (TSP-10) con programación dinámica
+
+Métricas:
+Costo total óptimo: 160
+Ruta óptima: C1 -> C2 -> C8 -> C7 -> C3 -> C4 -> C9 -> C10 -> C6 -> C5 -> C1
+Tiempo de ejecución: 0.309999942779541 en segundos
+
+Criterios de verificación:
+Ruta válida sin repeticiones: true
+Cálculo correcto del costo: 160
