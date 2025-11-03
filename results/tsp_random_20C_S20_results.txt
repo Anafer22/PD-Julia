@@ -1,0 +1,15 @@
+Resultados de TSP-RANDOM con programación dinámica
+
+Ciudades: 20
+Semilla aleatoria fija: 20
+
+Métricas:
+Costo total óptimo: 166
+Tiempo de ejecución: 65.432000 segundos
+
+Criterios de verificación:
+Ruta válida sin repeticiones: true
+Reproducibilidad: Semilla '20' fija
+
+Ruta óptima:
+C1 -> C6 -> C10 -> C14 -> C4 -> C2 -> C12 -> C20 -> C3 -> C17 -> C13 -> C19 -> C18 -> C7 -> C16 -> C15 -> C9 -> C5 -> C11 -> C8 -> C1

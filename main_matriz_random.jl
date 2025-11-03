@@ -54,7 +54,7 @@ string y devuelve C1 -> C5 -> ... -> C1"""
     @printf "Tiempo de ejecución: %.6f segundos.\n" tiempo_transcurrido
 
 # Guardar Resultados en results
-    resultados = "results/tsp_random_20C_results.txt"
+    resultados = "results/tsp_random_20C_S22_results.txt"
     mkpath("results")
     println("\nGuardando resultados en: $resultados")
 

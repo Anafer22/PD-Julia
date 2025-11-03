@@ -5,7 +5,7 @@ Semilla aleatoria fija: 22
 
 Métricas:
 Costo total óptimo: 160
-Tiempo de ejecución: 56.466000 segundos
+Tiempo de ejecución: 57.568000 segundos
 
 Criterios de verificación:
 Ruta válida sin repeticiones: true
