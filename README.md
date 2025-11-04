@@ -7,6 +7,7 @@ Este repositorio contiene la implementación del problema del agente viajero uti
 La solución implementada utiliza programación dinámica con memoización para encontrar la ruta de costo mínimo que visita cada ciudad exactamente una vez antes de regresar a la ciudad de inicio.
 
 El estado del problema se define mediante una tupla `(ciudad_actual, mascara_visitados)`:
+
 Donde: 
 * **`ciudad_actual`**: El índice de la ciudad donde se encuentra el vendedor.
 * **`mascara_visitados`**: Una máscara de bits (un entero) que representa el conjunto de ciudades que ya han sido visitadas.
