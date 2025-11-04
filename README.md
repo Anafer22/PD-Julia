@@ -33,7 +33,9 @@ Los scripts `main` añaden automáticamente los directorios `src/` y `data/` al 
 Hay dos puntos de entrada principales:
 ### 1. Problema de 10 ciudades (Datos fijos)
 Este script ejecuta el algoritmo sobre una matriz de distancias simétrica y predefinida de 10 ciudades.
+
 Para probar solo es necesario ejecutar el archivo main.jl
 ### 2. Problema de n ciudades (Datos random)
 Este script ejecuta el algoritmo sobre una matriz de distancias simétrica y predefinida de n ciudades.
+
 Para probar solo es necesario ejecutar el archivo main_matriz_random.jl
