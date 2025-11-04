@@ -8,6 +8,8 @@ using tsp_matriz_random
 using Printf               
 using Random              
 
+#ME GUIE DEL CODIGO ANTERIOR main.jl PARA HACER ESTE CODIGO.
+
 #Función Principal (main)
 function main_tsp_random()
     println("Iniciando TSP-RANDOM")

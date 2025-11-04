@@ -5,6 +5,8 @@ using Random
 # El export hace que la funcion sea publica fuera del modulo
 export tsp_matrix
 
+
+#USO DE IA PARA EL DESARROLLO DE ESTE CODIGO A PARTIR DE ESTA SECCIÓN HASTA EL FINAL DEL ARCHIVO
 # funcion principal que retorna la matriz de distancias simetrica y aleatoria
 function tsp_matrix(semilla::Int; n_ciudades::Int = 5, rango_maximo::Int = 100)::Matrix{Int}
 # Fijar la semilla aleatoria

@@ -7,6 +7,9 @@ using cod_fuente  # Nuestro algoritmo
 using tsp_matrices_10  # Nuestros datos
 using Printf     # modulo que imprime el texto con formato
 
+
+#USO DE IA PARA SABER COMO RESOLVER EL PORBLEMA Y POSTERIORMENTE CREAR MI CODIGO GUIANDOME
+#DE SU RESPUESTA U EXPLICACIÓN
 #Función Principal (main)
 function main()
     println("Iniciando TSP-10")
@@ -49,6 +52,8 @@ es_valida se guarda como true."""
     println("Ruta válida: ", es_valida ? "Sí" : "No")
     @printf "   Tiempo de ejecución: %.6f segundos.\n" tiempo_transcurrido
 
+#USO DE IA PARA EL DESARROLLO DE ESTE CODIGO PARA GUARDAR LOS DATOS EN UN ARCHIVO txt
+# YA QUE NO RECORDABA BIEN COMO HACERLO. 
 # Guardar resultados en la carpeta results
     resultados = "results/tsp10_results.txt"
     mkpath("results") # Asegura que el directorio exista

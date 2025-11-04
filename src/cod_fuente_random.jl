@@ -8,6 +8,8 @@ export tsp_mat_random
 y retorna una tupla que contiene el costo total minimo y la ruta óptima que es el vector
 de indices de las ciudades.
 """
+
+#ME GUIE DEL CODIGO ANTERIOR cod_fuente.jl PARA HACER ESTE CODIGO CON DATOS RANDOM
 function tsp_mat_random(distancia_matriz::Matrix{Int})
     # Obtiene el numero de las ciudades, ya que pide el tamaño de la primera dimension (las filas)
     n  = size(distancia_matriz, 1)

@@ -7,6 +7,11 @@ export tsp_mat_diez
 y retorna una tupla que contiene el costo total minimo y la ruta óptima que es el vector
 de indices de las ciudades.
 """
+
+#USO DE IA Y COPILOT  PARA EL DESARROLLO DE ESTE CODIGO, A PARTIR DE ESTA SECCION
+# SE LE PIDIO A LA IA LA EXPLICACIÓN E IMPLEMENTACIÓN DEL ALGORITMO PARA EL PROBLEMA resolver
+# ME FUI GUIANDO DE SU RESPUESTA PARA HACER EL CODIGO FINAL 
+
 function tsp_mat_diez(matriz_n::Matrix{Int})
     #Obtiene el numero de las ciudades (en este caso, 10), ya que pide el 
     #tamaño de la primera dimension (las filas) lo cual es 10.
